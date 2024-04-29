@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+# ReactMovies
+This Project is a Movies Display And Filter Movies React Project With following Features:-
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1) Displays Movies
 
-Currently, two official plugins are available:
+2) Genre,Coutnry And Language Based Filters to Filter a Movie based on these specific topics
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3) Display Total Movies Found 
 
-## Expanding the ESLint configuration
+4) Responsive Design/UI
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+5) Skeleton Loading Using Tailwind CSS while Fetching Movies 
 
-- Configure the top-level `parserOptions` property like this:
+## Running This Project locally
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1) Clone this repository to your local machine: 
+  git clone https://github.com/JANARDAN1022/ReactMovies.git
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2) Install dependencies using npm: 
+   npm install
+
+3) Start the development server:
+   npm run dev
+   
+4) Open your web browser and navigate to http://localhost:5173 to view the application.
+
+## DEMO
+--> Here is The Live Demo of This Project: https://react-movies-mu-jet.vercel.app/
+
+## Additional Notes
+--> Make sure you have Node.js installed on your machine.
+--> This project uses Vite as the build tool. You can find more information about Vite in the official documentation.
+
+## Credits
+This project was created by Janardan Ayachi.
